@@ -1,0 +1,150 @@
+/* mobile screens */
+@media only screen and (max-width:600px){
+    .links{
+
+        display: none !important;
+    }
+    .btn{
+            display: none !important;
+
+    }
+    .container{
+            display: block !important;
+    }
+    .containerimg{
+                display: flex;
+                flex-direction: column !important;
+                padding-left: 5% !important;
+                padding-right: 5% !important;
+
+    }
+    .containertext{
+                padding-top: 30px;
+                
+    }
+    .containerL{
+        background: linear-gradient(141.34deg, #F5F0FF 0%, #EFF6FE 50.36%, #EDFAF5 100%);
+        gap: 10px;
+        padding: 7%;
+}
+.img{
+        display: none !important;
+        margin-right: -20px;
+}
+        
+#Privacy{    
+        font-size: 20px !important;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#About{
+        font-size: 15px !important;
+}
+#Party{
+        font-size: 15px !important;
+}
+#Subject{
+        font-size: 15px !important;
+}
+#We{
+        font-size: 15px !important;
+}
+#Opmantek{
+        font-size: 15px !important;
+}
+#Access{
+        font-size: 15px !important;
+}
+#The{
+        font-size: 15px !important;
+}
+#We{
+        font-size: 15px !important;
+}
+#NDA{
+        font-size: 20px !important;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#EULA{       
+       
+        font-size: 20px !important;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#Cookie{
+        
+        font-size: 20px !important;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#Trust{     
+        font-size: 20px !important;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       
+
+}
+#ToS{
+        font-size: 20px !important;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}    
+#Licensing{
+        font-size: 20px !important;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Privacy{
+        font-size: 20px !important;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.name{
+        display: flex;
+        gap: 3%;
+}
+.bod2{
+        display: flex;
+        border-top: 0.9px  solid black;
+        padding-bottom: 2%;
+        padding-top: 2%;
+        padding-left: 7%;
+        padding-right: 7%;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #515458;
+        gap:70% ;
+
+}
+
+
+
+       }
+
+/* for tablet screens */
+@media only screen and (min-width:601px) and (max-width:1024px){
+        .navbar{
+                padding-left: 5% !important;
+                padding-right: 5% !important;
+        }
+        .containertext{
+                padding-top: 30px;
+                
+        }
+        
+        .links{
+                gap: 2% !important;
+                padding-left: -50% !important;
+                
+        }
+        .links >select {
+                border: none;
+                outline: none;
+                font-size: 15px;
+                font-weight: normal;  
+        }
+}
